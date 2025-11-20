@@ -167,7 +167,11 @@ def show_sidebar():
         /* Hide streamlit branding */
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
-        header {visibility: hidden;}
+        header {
+            height: 0px !important;
+            padding: 0 !important;
+        }
+
 
         /* Additional styling untuk form di expander */
         .streamlit-expander {
